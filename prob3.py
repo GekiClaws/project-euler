@@ -42,8 +42,10 @@ for num in range(3, range_num, 2):
 if len(prime_factors) == 0:
 	prime_factors[str(start_number)] = 1
 
-# Analysis of factors
+# Analysis and presentation
 if len(prime_factors) == 1 and list(prime_factors.values())==[1] and list(prime_factors.keys()) != ['1']:
 	print(start_number, "is prime, largest prime factor is", start_number)
 else:
 	print(start_number, "is not prime, largest prime factor is", list(prime_factors.keys())[-1])
+
+print("Prime factors:", prime_factors)
