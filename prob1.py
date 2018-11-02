@@ -5,7 +5,7 @@
 multiples_3 = []
 multiples_5 = []
 
-# Receive user input
+# Receive/validate user input
 while True:
 	try:
 		number = int(input("Please input a number"))
